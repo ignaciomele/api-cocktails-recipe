@@ -34,6 +34,7 @@
     "mysql2": "^2.3.3",
     "nodemailer": "^6.7.2",
     "sequelize": "^6.21.3",
+    "serverless-http": "^3.1.1",
     "uuid": "^8.3.2"
   },
   "engines": {

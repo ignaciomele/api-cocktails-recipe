@@ -31,7 +31,7 @@ app.use('/api/cocktails', cocktailsRouter);
 app.get('/', (req, res) => {
 	const authorization = req.get('Authorization');
 	res.render('index', {
-		title: 'Simples Cosas',
+		title: 'Cocktails recipe',
 		subTitle: process.env.DB_NAME,
 		subTitle1: process.env.DB_HOST,
 		subTitle2: process.env.PORT,
